@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test VARK</title>
+</head>
+<body>
+    <h1>Test VARK</h1>
+    <form action="/evaluar" method="post">
+        <p>1. Usted cocinará algo especial para su familia. Usted haría:</p>
+
+        <input type="radio" name="pregunta_1" value="aural">a. Preguntar a amigos por sugerencias.<br>
+        <input type="radio" name="pregunta_1" value="visual">b. Dar una vista al recetario por ideas de las fotos.<br>
+        <input type="radio" name="pregunta_1" value="lector">c. Usar un libro de cocina donde usted sabe hay una buena receta.<br>
+        <input type="radio" name="pregunta_1" value="kinestesico">d. Cocinar algo que usted sabe sin la necesidad de instrucciones.<br>
+
+        <p>2. Usted escogerá alimento en un restaurante o un café. Usted haría:</p>
+
+        <input type="radio" name="pregunta_2" value="aural">a. Escuchar al mesero o pedir que amigos recomienden opciones.<br>
+        <input type="radio" name="pregunta_2" value="visual">b. Mirar lo qué otros comen o mirar dibujos de cada platillo.<br>
+        <input type="radio" name="pregunta_2" value="lector">c. Escoger de las descripciones en el menú.<br>
+        <input type="radio" name="pregunta_2" value="kinestesico">d. Escoger algo que tienes o has tenido antes.<br>
+
+        <p>3. Aparte del precio, qué más te influenciaría para comprar un libro de ciencia ficción.</p>
+
+        <input type="radio" name="pregunta_3" value="aural">a. Un amigo habla acerca de él y te lo recomienda.<br>
+        <input type="radio" name="pregunta_3" value="kinestesico">b. Tienes historias reales, experiencias y ejemplos.<br>
+        <input type="radio" name="pregunta_3" value="lector">c. Leyendo rápidamente partes de él.<br>
+        <input type="radio" name="pregunta_3" value="visual">d. El diseño de la pasta es atractivo.<br>
+
+        <p>4. Usted ha terminado una competencia o un examen y le gustaría tener alguna retroalimentación. Te gustaría retroalimentarte:</p>
+
+        <input type="radio" name="pregunta_4" value="lector">a. Usando descripciones escritas de los resultados.<br>
+        <input type="radio" name="pregunta_4" value="kinestesico">b. Usando ejemplos de lo que usted ha hecho.<br>
+        <input type="radio" name="pregunta_4" value="visual">c. Usando gráficos que muestran lo que usted ha logrado.<br>
+        <input type="radio" name="pregunta_4" value="aural">d. De alguien que habla por usted.<br>
+
+        <p>5. Usted tiene un problema con la rodilla. Usted preferiría que el doctor:</p>
+
+        <input type="radio" name="pregunta_5" value="kinestesico">a. Use un modelo de plástico y te enseñe lo que está mal.<br>
+        <input type="radio" name="pregunta_5" value="lector">b. Te de una página de internet o algo para leer.<br>
+        <input type="radio" name="pregunta_5" value="aural">c. Te describa lo qué está mal.<br>
+        <input type="radio" name="pregunta_5" value="visual">d. Te enseñe un diagrama lo que está mal.<br>
+
+        <p>6. Usted está a punto de comprar una cámara digital o teléfono o móvil. ¿Aparte del precio qué más influirá en tomar tu decisión?</p>
+
+        <input type="radio" name="pregunta_6" value="kinestesico">a. Probándolo.<br>
+        <input type="radio" name="pregunta_6" value="visual">b. Es un diseño moderno y se mira bien.<br>
+        <input type="radio" name="pregunta_6" value="lector">c. Leer los detalles acerca de sus características.<br>
+        <input type="radio" name="pregunta_6" value="aural">d. El vendedor me informa acerca de sus características.<br>
+
+        <p>7. Usted no está seguro como se deletrea trascendente o tracendente
+            ¿Ud. qué haría?</p>
+
+        <input type="radio" name="pregunta_7" value="kinestesico">a. Escribir ambas palabras en un papel y escojo una.<br>
+        <input type="radio" name="pregunta_7" value="aural">b. Pienso cómo suena cada palabra y escojo una.<br>
+        <input type="radio" name="pregunta_7" value="lector">c. Busco la palabra en un diccionario.<br>
+        <input type="radio" name="pregunta_7" value="visual">d. Veo la palabra en mi mente y escojo según como la veo.<br>
+
+        <p>8. Me gustan páginas de Internet que tienen:</p>
+
+        <input type="radio" name="pregunta_8" value="lector">a. Interesantes descripciones escritas, listas y explicaciones.<br>
+        <input type="radio" name="pregunta_8" value="aural">b. Diseño interesante y características visuales.<br>
+        <input type="radio" name="pregunta_8" value="kinestesico">c. Cosas que con un click pueda cambiar o examinar.<br>
+        <input type="radio" name="pregunta_8" value="visual">d. Canales donde puedo oír música, programas de radio o entrevistas.<br>
+
+        <p>9. Usted está planeando unas vacaciones para un grupo. Usted quiere alguna observación de ellos acerca del plan. Usted qué haría:</p>
+
+        <input type="radio" name="pregunta_9" value="visual">a. Usa un mapa o página de Internet para mostrarles los lugares.<br>
+        <input type="radio" name="pregunta_9" value="aural">b. Describe algunos de los puntos sobresalientes.<br>
+        <input type="radio" name="pregunta_9" value="lector">c. Darles una copia del itinerario impreso.<br>
+        <input type="radio" name="pregunta_9" value="kinestesico">d. Llamarles por teléfono o mandar mensaje por correo electrónico.<br>
+
+        <p>10. Usted está usando un libro, disco compacto o página de Internet para aprender a tomar fotos con su cámara digital nueva. Usted le gustaría tener:</p>
+
+        <input type="radio" name="pregunta_10" value="aural">a. Una oportunidad de hacer preguntas acerca de la cámara y sus
+        características.<br>
+        <input type="radio" name="pregunta_10" value="visual">b. Esquemas o diagramas que muestran la cámara y la función de cada
+        parte.<br>
+        <input type="radio" name="pregunta_10" value="kinestesico">c. Ejemplos de buenas y malas fotos y cómo mejorarlas.<br>
+        <input type="radio" name="pregunta_10" value="lector">d. Aclarar las instrucciones escritas con listas y puntos sobre qué hacer.<br>
+
+        <p>11. Usted quiere aprender un programa nuevo, habilidad o juego en una computadora. Usted qué hace:</p>
+
+        <input type="radio" name="pregunta_11" value="aural">a. Hablar con gente que sabe acerca del programa.<br>
+        <input type="radio" name="pregunta_11" value="visual">b. Leer las instrucciones que vienen en el programa.<br>
+        <input type="radio" name="pregunta_11" value="lector">c. Seguir los esquemas en el libro que acompaña el programa.<br>
+        <input type="radio" name="pregunta_11" value="kinestesico">d. Use los controles o el teclado.<br>
+
+        <p>12. Estás ayudando a alguien que quiere a ir al aeropuerto, al centro del pueblo o la estación del ferrocarril. Usted hace:</p>
+
+        <input type="radio" name="pregunta_12" value="kinestesico">a. Va con la persona.<br>
+        <input type="radio" name="pregunta_12" value="lector">b. Anote las direcciones en un papel (sin mapa).<br>
+        <input type="radio" name="pregunta_12" value="aural">c. Les dice las direcciones.<br>
+        <input type="radio" name="pregunta_12" value="visual">d. Les dibuja un croquis o les da un mapa.<br>
+
+        <p>13. Recuerde un momento en su vida en que Ud. aprendió a hacer algo nuevo.
+            Trate de evitar escoger una destreza física, como andar en bicicleta. Ud.
+            Aprendió mejor:</p>
+
+        <input type="radio" name="pregunta_13" value="kinestesico">a. Viendo una demostración.<br>
+        <input type="radio" name="pregunta_13" value="aural">b. Con instrucciones escritas, en un manual o libro de texto.<br>
+        <input type="radio" name="pregunta_13" value="visual">c. Escuchando a alguien explicarlo o haciendo preguntas.<br>
+        <input type="radio" name="pregunta_13" value="lector">d. Con esquemas y diagramas o pistas visuales.<br>
+
+        <p>14. Ud. Prefiere un maestro o conferencista que use:</p>
+
+        <input type="radio" name="pregunta_14" value="kinestesico">a. Demostraciones, modelos o sesiones prácticas.<br>
+        <input type="radio" name="pregunta_14" value="lector">b. Folletos, libros o lecturas.<br>
+        <input type="radio" name="pregunta_14" value="visual">c. Diagramas, esquemas o gráficos.<br>
+        <input type="radio" name="pregunta_14" value="aural">d. Preguntas y respuestas, pláticas y oradores invitados.<br>
+
+        <p>15. Un grupo de turistas quiere aprender acerca de parques o reservas
+            naturales en su área. Usted:</p>
+
+        <input type="radio" name="pregunta_15" value="kinestesico">a. Los acompaña a un parque o reserva natural.<br>
+        <input type="radio" name="pregunta_15" value="lector">b. Les da un libro o folleto acerca de parques o reservas naturales.<br>
+        <input type="radio" name="pregunta_15" value="aural">c. Les da una plática acerca de parques o reservas naturales.<br>
+        <input type="radio" name="pregunta_15" value="visual">d. Les muestra imágenes de Internet, fotos o libros con dibujos.<br>
+
+        <p>16. Usted tiene que hacer un discurso para una conferencia u ocasión especial.
+            Usted hace:</p>
+
+        <input type="radio" name="pregunta_16" value="lector">a. Escribir el discurso y aprendérselo leyéndolo varias veces.<br>
+        <input type="radio" name="pregunta_16" value="kinestesico">b. Reunir muchos ejemplos e historias para hacer el discurso verdadero y
+        práctico.<br>
+        <input type="radio" name="pregunta_16" value="aural">c. Escribir algunas palabras claves y practicar el discurso repetidas veces.<br>
+        <input type="radio" name="pregunta_16" value="visual">d. Hacer diagramas o esquemas que te ayuden a explicar las cosas.<br>
+
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

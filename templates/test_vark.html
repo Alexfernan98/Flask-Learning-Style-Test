@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test VARK</title>
+</head>
+<body>
+    <h1>Test VARK</h1>
+    <form action="/evaluar" method="POST">
+        {% for num, pregunta in preguntas.items() %}
+            <p>{{ num }}. {{ pregunta }}</p>
+            {% for opcion, texto in opciones[num].items() %}
+                <input type="radio" name="pregunta_{{ num }}" value="{{ valores_respuestas[num][opcion] }}"> {{ texto }}<br>
+            {% endfor %}
+        {% endfor %}
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>

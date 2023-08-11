@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resultado del Test VARK</title>
+</head>
+<body>
+    <h1>Resultado del Test VARK</h1>
+    <p>Puntajes:</p>
+    <ul>
+        {% for opcion, puntaje in puntajes.items() %}
+            <li>{{ opcion }}: {{ puntaje }}</li>
+        {% endfor %}
+    </ul>
+    <p>Preferencia VARK del usuario: {{ preferencia_vark }}</p>
+    <button><a href="perfil">perfil</a></button>
+
+</body>
+</html>

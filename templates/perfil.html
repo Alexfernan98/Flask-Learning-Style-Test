@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{current_user.nombre}}</title>
+
+</head>
+<body>
+    <h1>Perfil</h1>
+
+    {% for material in materiales%}
+    <li>
+        <strong>Título:</strong> {{ material.titulo }}<br>
+        <strong>Descripción:</strong> {{ material.descripcion }}<br>
+        <a href="{{ url_for('download_material', material_id=material.id) }}">Descargar</a>
+    </li>
+    {% endfor %}
+    <a href="logout">Cerrar sesion</a>
+    <a href="formulario">Subir archivo</a>
+</body>
+</html>
